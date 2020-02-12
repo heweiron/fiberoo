@@ -23,6 +23,6 @@ function numsToStrings() {
 console.log(numsToStrings());
 
 function numEvenNums(list) {
-  return _.filter(list, function (num) { return num % 2 === 0; });
+  return _.filter(list, function (num) { return num % 2 === 0; }).length;
 }
 console.log(numEvenNums(fib()));
